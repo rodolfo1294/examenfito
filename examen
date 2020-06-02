@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta charset="utf-8">
+    <title>Star Wars</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="icon" type="image/gif" href="assets/images/icon-sw.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="css/main.css">
+
+  </head>
+  <body>
+    <h1 class="title center">EL API DE STAR WARS</h1>
+    <!-- Modal Structure -->
+    <div id="modal1" class="modal">
+      <div class="modal-content center" >
+
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+
+     <section class="container">
+       <ul id="container-movies">
+
+       </ul>
+     </section>
+
+     
+     <script type="text/javascript" src="js/asw.js"></script>
+     
+
+  </body>
+</html> 
